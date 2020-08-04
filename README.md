@@ -54,3 +54,13 @@ npm start  ou  yarn start
 Para ver o projeto localmente, acesse
 
 > localhost:3000
+
+## Estrutura da Aplicação
+* public/
+* src/
+	* assets/ `Onde contém as imagens utilizadas no projeto`
+	* components/ `Os componentes que podem ser utilizados em vários lugares.`
+	* helpers/ `Funções que ajudam algumas conversões (De strings, por exemplo)`
+	* services/ `Local onde fica a chamada à API`
+	* theme/ `Necessário para customizar e/ou sobrescrever o componentes do Material UI`
+	* views/ `Componentes referentes às páginas do projeto`
